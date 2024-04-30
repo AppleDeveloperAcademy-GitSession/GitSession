@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DFEA9EF62BE0E62F004B52E4 /* Kaya.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA9EF52BE0E62F004B52E4 /* Kaya.swift */; };
+		555A8A952BE0E62C0070895F /* AceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A8A942BE0E62C0070895F /* AceView.swift */; };
 		F38173562BE0E4E6005A4285 /* GitTestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38173552BE0E4E6005A4285 /* GitTestProjectApp.swift */; };
 		F38173582BE0E4E6005A4285 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38173572BE0E4E6005A4285 /* ContentView.swift */; };
 		F381735A2BE0E4E8005A4285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38173592BE0E4E8005A4285 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		DFEA9EF52BE0E62F004B52E4 /* Kaya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kaya.swift; sourceTree = "<group>"; };
+		555A8A942BE0E62C0070895F /* AceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AceView.swift; sourceTree = "<group>"; };
 		F38173522BE0E4E6005A4285 /* GitTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38173552BE0E4E6005A4285 /* GitTestProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTestProjectApp.swift; sourceTree = "<group>"; };
 		F38173572BE0E4E6005A4285 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 			path = Kaya;
 			sourceTree = "<group>";
 		};
+		555A8A932BE0E6200070895F /* Ace */ = {
+			isa = PBXGroup;
+			children = (
+				555A8A942BE0E62C0070895F /* AceView.swift */,
+			);
+			path = Ace;
+			sourceTree = "<group>";
+		};
 		F38173492BE0E4E6005A4285 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 		F38173542BE0E4E6005A4285 /* GitTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				555A8A932BE0E6200070895F /* Ace */,
 				F38173552BE0E4E6005A4285 /* GitTestProjectApp.swift */,
 				F38173572BE0E4E6005A4285 /* ContentView.swift */,
 				DFEA9EF42BE0E61D004B52E4 /* Kaya */,
@@ -271,6 +282,7 @@
 				DFEA9EF62BE0E62F004B52E4 /* Kaya.swift in Sources */,
 				F38173582BE0E4E6005A4285 /* ContentView.swift in Sources */,
 				F38173562BE0E4E6005A4285 /* GitTestProjectApp.swift in Sources */,
+				555A8A952BE0E62C0070895F /* AceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
