@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DFEA9EF62BE0E62F004B52E4 /* Kaya.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEA9EF52BE0E62F004B52E4 /* Kaya.swift */; };
 		F38173562BE0E4E6005A4285 /* GitTestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38173552BE0E4E6005A4285 /* GitTestProjectApp.swift */; };
 		F38173582BE0E4E6005A4285 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38173572BE0E4E6005A4285 /* ContentView.swift */; };
 		F381735A2BE0E4E8005A4285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38173592BE0E4E8005A4285 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DFEA9EF52BE0E62F004B52E4 /* Kaya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kaya.swift; sourceTree = "<group>"; };
 		F38173522BE0E4E6005A4285 /* GitTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38173552BE0E4E6005A4285 /* GitTestProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTestProjectApp.swift; sourceTree = "<group>"; };
 		F38173572BE0E4E6005A4285 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DFEA9EF42BE0E61D004B52E4 /* Kaya */ = {
+			isa = PBXGroup;
+			children = (
+				DFEA9EF52BE0E62F004B52E4 /* Kaya.swift */,
+			);
+			path = Kaya;
+			sourceTree = "<group>";
+		};
 		F38173492BE0E4E6005A4285 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +106,7 @@
 			children = (
 				F38173552BE0E4E6005A4285 /* GitTestProjectApp.swift */,
 				F38173572BE0E4E6005A4285 /* ContentView.swift */,
+				DFEA9EF42BE0E61D004B52E4 /* Kaya */,
 				F38173592BE0E4E8005A4285 /* Assets.xcassets */,
 				F381735B2BE0E4E8005A4285 /* Preview Content */,
 			);
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFEA9EF62BE0E62F004B52E4 /* Kaya.swift in Sources */,
 				F38173582BE0E4E6005A4285 /* ContentView.swift in Sources */,
 				F38173562BE0E4E6005A4285 /* GitTestProjectApp.swift in Sources */,
 			);
